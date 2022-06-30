@@ -564,3 +564,34 @@ body {
     margin-left: 20px;
   }
 }
+
+.footer {
+  &__logo {
+    width: 206px;
+    height: 80px;
+    margin: 70px auto 40px auto;
+    background-image: url(../../imgs/footer-logo.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__underline {
+    background-color: rgba(230, 229, 234, 0.15);
+    // opacity: 0.15;
+    padding: 15px 0;
+  }
+
+  &__text {
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4a4a4a;
+    a {
+      text-decoration-line: underline;
+      color: #f8b500;
+    }
+  }
+}
