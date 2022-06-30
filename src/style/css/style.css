@@ -253,4 +253,63 @@ body {
   cursor: pointer;
 }
 
+.benefits {
+  max-width: 1780px;
+  margin: 0 auto;
+  padding-top: 43px;
+  padding-bottom: 90px;
+}
+.benefits__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: #24173d;
+}
+.benefits__cards {
+  padding: 60px 90px 0 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 94px;
+}
+.benefits__card-item {
+  display: flex;
+  align-items: center;
+}
+.benefits__icon {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+}
+.benefits__icon_bitcoin {
+  background-image: url(../../imgs/bitcoin-icon.svg);
+}
+.benefits__icon_list {
+  background-image: url(../../imgs/list-icon.svg);
+}
+.benefits__icon_hose {
+  background-image: url(../../imgs/hose-sale-icon.svg);
+}
+.benefits__icon_invest {
+  background-image: url(../../imgs/invest-icon.svg);
+}
+.benefits__icon_visa {
+  background-image: url(../../imgs/visa-icon.svg);
+}
+.benefits__icon_credit {
+  background-image: url(../../imgs/credit-icon.svg);
+}
+.benefits__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #24173d;
+  padding-left: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
