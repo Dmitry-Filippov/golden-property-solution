@@ -347,3 +347,85 @@ body {
     padding-left: 40px;
   }
 }
+
+.property-types {
+  padding-top: 44px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  &__cards {
+    width: 100%;
+    padding-top: 59px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__grid-upper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &__grid-lower {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__card-item {
+    padding-bottom: 31px;
+    padding-top: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+    &.studio {
+      background-image: url(../../imgs/studio-img.jpg);
+    }
+    &.apartament {
+      background-image: url(../../imgs/apartament-img.jpg);
+    }
+    &.penthouse {
+      background-image: url(../../imgs/penthouse-img.jpg);
+    }
+    &.townhouse {
+      background-image: url(../../imgs/townhouse-img.jpg);
+    }
+    &.villa {
+      background-image: url(../../imgs/villa-img.jpg);
+    }
+  }
+
+  &__img-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+
+  &__img-button {
+    margin-top: 20px;
+    background: #fac86e;
+    box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #24173d;
+    cursor: pointer;
+  }
+}

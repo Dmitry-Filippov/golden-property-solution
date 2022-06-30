@@ -312,4 +312,78 @@ body {
   padding-left: 40px;
 }
 
+.property-types {
+  padding-top: 44px;
+}
+.property-types__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+.property-types__cards {
+  width: 100%;
+  padding-top: 59px;
+  display: flex;
+  flex-direction: column;
+}
+.property-types__grid-upper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.property-types__grid-lower {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.property-types__card-item {
+  padding-bottom: 31px;
+  padding-top: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.property-types__card-item.studio {
+  background-image: url(../../imgs/studio-img.jpg);
+}
+.property-types__card-item.apartament {
+  background-image: url(../../imgs/apartament-img.jpg);
+}
+.property-types__card-item.penthouse {
+  background-image: url(../../imgs/penthouse-img.jpg);
+}
+.property-types__card-item.townhouse {
+  background-image: url(../../imgs/townhouse-img.jpg);
+}
+.property-types__card-item.villa {
+  background-image: url(../../imgs/villa-img.jpg);
+}
+.property-types__img-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.property-types__img-button {
+  margin-top: 20px;
+  background: #fac86e;
+  box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #24173d;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
